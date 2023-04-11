@@ -1,0 +1,33 @@
+/* caja contenedor */
+/* elemento padres*/
+
+.principal{
+    border: solid 3px black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;  
+/* flex-direction: row-reverse; */     
+/* flex-direction: column; */
+/* flex-direction: column-reverse;*/    
+/* flex-wrap: nowrap; */
+flex-wrap: wrap;    
+/* flex-wrap: wrap-reverse; */
+/* justify-content: center; */
+/* justify-content: flex-end; */
+/* justify-content: space-between; */
+justify-content: space-around;
+}
+
+.secciones{
+    border: solid 2px green;
+    margin-bottom: 10px;
+}
+
+p{
+    width: 400px;
+}
+
+.secciones :hover{
+    width: 120%;
+    z-index: 1;
+}
