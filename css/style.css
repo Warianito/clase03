@@ -1,5 +1,10 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+
 /* caja contenedor */
 /* elemento padres*/
+
+
 
 .principal{
     border: solid 3px black;
@@ -18,6 +23,21 @@ flex-wrap: wrap;
 justify-content: space-around;
 }
 
+/* .imagen{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} */
+
+.imagen{
+background-image: url("../img/principal.jpg");
+background-size: cover;    
+background-position: center center;
+height: 100vh;
+/* width: 100vw; */
+background-repeat: no-repeat;
+}
+
 .secciones{
     border: solid 2px green;
     margin-bottom: 10px;
@@ -30,4 +50,45 @@ p{
 .secciones :hover{
     width: 120%;
     z-index: 1;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+a{
+    background: red;
+    color: #fff;
+    border:  2px black;
+    font-size: 20px;
+    /* padding-right: 15px;
+    margin-right: 15px; */
+    /* lo reemplazo por flex */
+}
+
+
+/* hover: cambia cuando paso arriba con el mouse en la pagina */
+a:hover{
+    background: #fff;
+    color: red;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+li{
+    list-style-type: none;
+    
 }
